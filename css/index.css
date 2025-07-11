@@ -1,0 +1,103 @@
+html{
+    height: 100vh;
+    width: 100%;
+    background-color: #182d3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans';
+}
+
+/*LOGO HONOR*/
+#centrar-honor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#honor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5vh;
+    width: 45vh;
+    height: 10vh;
+}
+#honor h1{
+    color: black;
+}
+/*informacion y login*/
+#informacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh; 
+}
+#text-informacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d9d9d9;
+    height: 60vh;
+    width: 70vh;
+    border-radius: 5vh;
+}
+#text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #737373;
+    border-radius: 3vh;
+    width: 62vh;
+    height: 52vh;
+    padding: 2vh 2vh;
+}
+/*ingreso*/
+#ingreso{
+    margin-left: 5vh;
+    background-color: #d9d9d9;
+    height: 60vh;
+    width: 55vh;
+    border-radius: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#ingreso input{
+    margin: 2vh 2vh;
+    border: none;
+    font-size: large;
+    text-align: center;
+}
+#ingreso input::placeholder{
+    color: black;
+    text-align: center;
+    font-size: large;
+}
+#User{
+    height: 10vh;
+    border-radius: 2vh;
+}
+#Psw{
+    height: 10vh;
+    border-radius: 2vh;
+}
+#login{
+    height: 10vh;
+    width: 35vh;
+    border-radius: 2vh;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/*FOOTER*/
+#marca_de_propiedad {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 1vh 2vh;
+    color: white;
+    font-size: 0.9em;
+}
