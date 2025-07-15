@@ -9,7 +9,7 @@ if (!isset($_SESSION['Id'], $_POST['ticket_id'])) {
 }
 
 $ticketId = intval($_POST['ticket_id']); // Asegura que sea numérico
-$honorIdIt = $_SESSION['Id'];
+$honorIdIt = $_SESSION['HonorId'];
 
 // Verificar si el ticket aún está disponible (opcional pero recomendable)
 $sqlCheck = "SELECT State FROM Tickets WHERE IdTicket = ?";

@@ -21,6 +21,7 @@ if ($stmt->execute()) {
             // Login correcto
             $_SESSION['username'] = $user['NameUser'];
             $_SESSION['Id'] = $user['Id'];
+            $_SESSION['HonorId'] = $user['HonorId'];
             header("Location: ../front/dashboard.php");
             exit;
             
