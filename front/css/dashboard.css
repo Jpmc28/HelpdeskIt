@@ -150,7 +150,6 @@ footer {
 textarea#responseText {
     width: 100%;
     height: 15vh;
-    padding: 1.5vh;
     border: 0.15vh solid #cbd5e1;
     border-radius: 1vh;
     font-family: 'Open Sans', sans-serif;
@@ -209,6 +208,7 @@ input[type="file"] {
     background: transparent;
     border: none;
     cursor: pointer;
+    display: none;
 }
 
 #modalImage {

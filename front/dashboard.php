@@ -43,6 +43,9 @@ $resultAvailable = $conexion->query($sqlAvailable);
     </style>
 </head>
 <body>
+<form action="logout.php" method="POST" style="position:absolute; top:20px; right:20px;">
+    <button type="submit" class="logout-btn" color="white">Cerrar Sesión</button>
+</form>
 <div class="dashboard">
     <div class="tickets-container">
         <div class="column">
